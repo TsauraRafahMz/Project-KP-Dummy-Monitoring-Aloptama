@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.real-time {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    text-align: right;
+}
+
+main {
+    margin: 20px;
+}
+
+.overview {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.highlight {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.data-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.battery-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.battery-icon {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.battery-icon.green {
+    background-color: #4caf50;
+    color: white;
+}
+
+.battery-icon.yellow {
+    background-color: #fbc02d;
+    color: black;
+}

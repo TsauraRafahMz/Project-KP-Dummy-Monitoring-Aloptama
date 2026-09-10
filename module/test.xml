@@ -1,0 +1,16 @@
+<Infogempa>
+	<Gempa>
+		<Tanggal>13/11/2016</Tanggal>
+		<Jam>20:27:31 WIB</Jam>
+		<Lintang>8.96 LS</Lintang>
+		<Bujur>111.31 BT</Bujur>
+		<Magnitude>5.1 SR</Magnitude>
+		<Kedalaman>10 Km</Kedalaman>
+		<Keterangan>
+		Pusat gempa berada di Laut 89 Km Tenggara Pacitan Jawa Timur
+		</Keterangan>
+		<Dirasakan>Yogyakarta III MMI, Pacitan II-III MMI</Dirasakan>
+		<Linkdetail>http://inatews.bmkg.go.id/gempa_dirasakan.php</Linkdetail>
+		<Namapeta>eqfelt.gif</Namapeta>
+	</Gempa>
+</Infogempa>

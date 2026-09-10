@@ -1,0 +1,61 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .card {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 15px 20px 5px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .card p {
+            margin: 5px 0;
+            color: #555;
+        }
+        .card {
+            text-decoration: none; /* Menghilangkan garis bawah */
+            color: inherit; /* Menjaga warna teks tetap sesuai */
+        }
+
+        .indicator {
+            position: relative; /* Letakkan di sudut kanan atas */
+            top: 10px;          /* Jarak dari atas */
+            right: 10px;        /* Jarak dari kanan */
+            width: 15px;        /* Lebar indikator */
+            height: 15px;       /* Tinggi indikator */
+            border-radius: 50%; /* Membuat indikator berbentuk lingkaran */
+            background-color: transparent; /* Warna default */
+            z-index: 10;        /* Pastikan indikator muncul di atas elemen lain */
+        }
+
+        .indicator.green {
+            background-color: #4CAF50; /* Hijau */
+        }
+        
+        .indicator.yellow {
+            background-color: #FFEB3B; /* Kuning */
+        }
+
+        .indicator.orange {
+            background-color: #e39f21; /* Kuning */
+        }
+        
+        .indicator.red {
+            background-color: #F44336; /* Merah */
+        }
+        

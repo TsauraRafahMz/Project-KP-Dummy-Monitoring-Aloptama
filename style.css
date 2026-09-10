@@ -1,0 +1,169 @@
+.container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+    }
+.logo{
+ max-width: 50px; /* Sesuaikan lebar maksimum logo */
+  margin-right: 120px; /* Jarak antara logo dan teks */
+}
+.tittle{
+  flex-grow: 1;
+}
+h1{
+    text-align: center;
+}
+h3{
+  text-align: center;
+}
+
+body {
+    width: 80%; 
+    margin: auto;
+    padding: 0;
+    background-color: white;
+}
+a:link {
+  color: gray;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: rebeccapurple;
+}
+a:active {
+  color: teal;
+}
+#navigation {  
+}
+p {
+  font-size: 110%;
+  color: black;
+}
+#contents {
+    float: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkblue;
+  font-family: sans-serif;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #fff;
+}
+footer {
+  text-align: center;
+}
+
+.w3-border {
+  border: 1px solid #ccc !important;
+}
+
+.w3-container, .w3-panel {
+  padding: 0.01em 16px;
+}
+
+.w3-round-xlarge {
+  border-radius: 16px;
+}
+
+    /* styling tambahan */
+
+    .search-container {
+      text-align: center;
+      margin: 20px auto;
+  }
+
+  .search-container label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+      color: #000080;
+  }
+
+  .input-group {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+  }
+
+  .input-group-icon {
+      background-color: #f1f1f1;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-right: none;
+      border-radius: 5px 0 0 5px;
+  }
+
+  .input-group i {
+      color: #000080;
+  }
+
+  .form-control {
+      width: 300px;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 0 5px 5px 0;
+  }
+
+  .btn {
+      display: inline-block;
+      background-color: #000080;
+      color: #fff;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background 0.3s ease;
+  }
+
+  .btn:hover {
+      background-color: #000080;
+  }
+
+  .page #contents {
+      margin-bottom: 20px;
+      text-align: center;
+  }
+
+  .page h2 {
+      font-size: 24px;
+      color: #000080;
+  }
+
+  .page p {
+      font-size: 16px;
+      color: #555;
+  }
+  .search-wrapper .btn {
+    background-color: #000080; /* warna biru tua dari tema */
+    color: #fff; /* warna teks putih */
+    border: 1px solid #000080; /* border biru tua */
+    border-radius: 0 5px 5px 0;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .search-wrapper .btn:hover {
+      background-color: #000066; /* warna biru lebih tua untuk efek hover */
+      border-color: #000066;
+  }
+

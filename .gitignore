@@ -1,0 +1,25 @@
+# Environment / credentials
+.env
+.env.*
+
+# Debug & log
+debug.txt
+session_debug.txt
+*.log
+
+# Local database dumps / exports
+*.sql
+*.csv
+*.xlsx
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
